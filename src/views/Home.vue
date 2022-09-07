@@ -1,5 +1,4 @@
-<template>
-  <div class="container">
+<template>  <div class="container">
     <div class="content-wrapper">
       <div class="list-wraper">
         <div :key="item.id" v-for="item in list" class="image-wrapper">
@@ -115,7 +114,7 @@ export default {
       list: [
         {
           id: 1,
-          url: '/static/images/test.png'
+          url: '/images/test.png'
         },
       ],
       isDrawingMode: true,
